@@ -31,7 +31,7 @@
   </parent>
   <groupId>org.xwiki.platform</groupId>
   <artifactId>xwiki-platform-cache-oscache</artifactId>
-  <version>7.1.2-SNAPSHOT</version>
+  <version>7.1.2</version>
   <name>Cache OSCache</name>
   <packaging>jar</packaging>
   <description>OSCache based cache module</description>
@@ -99,7 +99,7 @@
     <connection>scm:git:git://github.com/xwiki-contrib/xwiki-platform-cache-oscache.git</connection>
     <developerConnection>scm:git:git@github.com:xwiki-contrib/xwiki-platform-cache-oscache.git</developerConnection>
     <url>https://github.com/xwiki-contrib/xwiki-platform-cache-oscache</url>
-    <tag>HEAD</tag>
+    <tag>xwiki-platform-cache-oscache-7.1.2</tag>
   </scm>
   <distributionManagement>
     <repository>
