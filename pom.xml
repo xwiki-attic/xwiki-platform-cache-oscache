@@ -30,9 +30,9 @@
     <version>7.2-SNAPSHOT</version>
   </parent>
   <artifactId>xwiki-platform-cache-oscache</artifactId>
-  <name>XWiki Platform - Cache - OSCache</name>
+  <name>OSCache Cache</name>
   <packaging>jar</packaging>
-  <description>XWiki Platform - Cache - OSCache</description>
+  <description>OSCache based cache module</description>
   <properties>
     <xwiki.jacoco.instructionRatio>0.71</xwiki.jacoco.instructionRatio>
     <!-- TODO: Remove once the tests have been fixed to not output anything to the console! -->
