@@ -27,10 +27,11 @@
   <parent>
     <groupId>org.xwiki.platform</groupId>
     <artifactId>xwiki-platform-cache</artifactId>
-    <version>7.2-SNAPSHOT</version>
+    <version>7.1.1</version>
   </parent>
+  <version>7.1.2-SNAPSHOT</version>
   <artifactId>xwiki-platform-cache-oscache</artifactId>
-  <name>OSCache Cache</name>
+  <name>Cache OSCache</name>
   <packaging>jar</packaging>
   <description>OSCache based cache module</description>
   <properties>
@@ -89,5 +90,19 @@
       </plugin>
     </plugins>
   </build>
+
+  <scm>
+    <connection>scm:git:git://github.com/xwiki-contrib/xwiki-platform-cache-oscache.git</connection>
+    <developerConnection>scm:git:git@github.com:xwiki-contrib/xwiki-platform-cache-oscache.git</developerConnection>
+    <url>https://github.com/xwiki-contrib/xwiki-platform-cache-oscache</url>
+    <tag>HEAD</tag>
+  </scm>
+  <distributionManagement>
+    <repository>
+      <id>xwiki-staging</id>
+      <name>XWiki Staging Repository</name>
+      <url>http://nexus.xwiki.org/nexus/service/local/staging/deploy/maven2/</url>
+    </repository>
+  </distributionManagement>
 </project>
 
