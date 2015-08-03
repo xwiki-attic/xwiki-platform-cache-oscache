@@ -29,13 +29,14 @@
     <artifactId>xwiki-platform-cache</artifactId>
     <version>7.1.1</version>
   </parent>
-  <version>7.1.2-SNAPSHOT</version>
   <artifactId>xwiki-platform-cache-oscache</artifactId>
+  <version>7.1.2-SNAPSHOT</version>
   <name>Cache OSCache</name>
   <packaging>jar</packaging>
   <description>OSCache based cache module</description>
   <properties>
     <xwiki.jacoco.instructionRatio>0.71</xwiki.jacoco.instructionRatio>
+    <xwiki.enforcer.skip>true</xwiki.enforcer.skip>
     <!-- TODO: Remove once the tests have been fixed to not output anything to the console! -->
     <xwiki.surefire.captureconsole.skip>true</xwiki.surefire.captureconsole.skip>
   </properties>
