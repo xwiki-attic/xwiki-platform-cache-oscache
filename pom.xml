@@ -25,16 +25,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <parent>
-    <groupId>org.xwiki.platform</groupId>
-    <artifactId>xwiki-platform-cache</artifactId>
+    <groupId>org.xwiki.commons</groupId>
+    <artifactId>xwiki-commons-pom</artifactId>
     <version>7.1.1</version>
   </parent>
+  <groupId>org.xwiki.platform</groupId>
   <artifactId>xwiki-platform-cache-oscache</artifactId>
   <version>7.1.2-SNAPSHOT</version>
   <name>Cache OSCache</name>
   <packaging>jar</packaging>
   <description>OSCache based cache module</description>
   <properties>
+    <platform.version>${commons.version}</platform.version>
     <xwiki.jacoco.instructionRatio>0.71</xwiki.jacoco.instructionRatio>
     <xwiki.enforcer.skip>true</xwiki.enforcer.skip>
     <!-- TODO: Remove once the tests have been fixed to not output anything to the console! -->
@@ -74,6 +76,7 @@
         </exclusion>
       </exclusions>
     </dependency>
+
     <!--  Test Dependencies -->
     <dependency>
       <groupId>org.xwiki.platform</groupId>
